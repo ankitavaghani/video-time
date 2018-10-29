@@ -13,9 +13,9 @@ app = Flask(__name__)
 def home_page():
 	return render_template('index.html')
 
-@app.route('/movies')
-def movies():
-	return render_template('movies.html')
+@app.route('/inspirational')
+def inspirational():
+	return render_template('inspirational.html')
 
 @app.route('/songs')
 def music():
