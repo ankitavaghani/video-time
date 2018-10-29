@@ -58,7 +58,21 @@
         border-color: #000;
         border-width: 1px;
     }
-    
+    .video-container {
+        position:relative;
+        padding-bottom:56.25%;
+        padding-top:30px;
+        height:0;
+        overflow:hidden;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+    }
 </style>
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
@@ -111,89 +125,15 @@
         <div class="container">
                <br><br>
             <div class="row">
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.youtube.com/embed/RkPi9VCmliI?autoplay=1&start=209&end=265" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="https://avatars1.githubusercontent.com/u/8461930?s=460&v=4" target="_blank" class="img-responsive" alt="">
-                    </a>
+                <div class="col-sm-6 portfolio-item video-container">
+                    <iframe src="https://www.youtube.com/embed/RkPi9VCmliI?autoplay=1&loop=3&start=209&end=265" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.cleverprogrammer.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://viralinindia.net/wp-content/uploads/2017/04/xOfsnTlNn_400x400.jpeg.pagespeed.ic.nGEIvYOHxa.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.et-indiaukconclave.com/wp-content/uploads/2018/08/Gaurgopal-Das.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.chesstastic.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.ivory-ng.com/wp-content/uploads/2018/02/416x416.jpg" target="_blank" class="img-responsive">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.chesstastic.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.ivory-ng.com/wp-content/uploads/2018/02/416x416.jpg" target="_blank" class="img-responsive">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.chesstastic.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.ivory-ng.com/wp-content/uploads/2018/02/416x416.jpg" target="_blank" class="img-responsive">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.chesstastic.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.ivory-ng.com/wp-content/uploads/2018/02/416x416.jpg" target="_blank" class="img-responsive">
-                    </a>
-                </div>
-                <div class="col-sm-2 portfolio-item">
-                    <a href="https://www.chesstastic.com/" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="http://www.ivory-ng.com/wp-content/uploads/2018/02/416x416.jpg" target="_blank" class="img-responsive">
-                    </a>
+                <div class="col-sm-6 portfolio-item video-container">
+                    <iframe src="https://www.youtube.com/embed/RkPi9VCmliI?autoplay=1&loop=3&start=209&end=265" frameborder="0" allowfullscreen></iframe>    
                 </div>
             </div>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RkPi9VCmliI?autoplay=1&loop=3start=209&end=265" frameborder="0" allowfullscreen></iframe>
+        
     </section>
 
 {% endblock %}
