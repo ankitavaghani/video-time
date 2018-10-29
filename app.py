@@ -14,7 +14,7 @@ def home_page():
 	return render_template('index.html')
 
 @app.route('/inspirational')
-def inspirational():
+def motivation():
 	return render_template('inspirational.html')
 
 @app.route('/songs')
