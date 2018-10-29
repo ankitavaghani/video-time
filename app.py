@@ -17,9 +17,9 @@ def home_page():
 def movies():
 	return render_template('movies.html')
 
-@app.route('/music')
+@app.route('/songs')
 def music():
-	return render_template('music.html')
+	return render_template('songs.html')
 
 
 @app.route('/add_numbers', methods=['GET','POST'])
