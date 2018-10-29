@@ -17,8 +17,8 @@ def home_page():
 def movies():
 	return render_template('movies.html')
 
-@app.route('/movies')
-def movies():
+@app.route('/music')
+def music():
 	return render_template('music.html')
 
 
