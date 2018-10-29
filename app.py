@@ -13,9 +13,9 @@ app = Flask(__name__)
 def home_page():
 	return render_template('index.html')
 
-@app.route('/<name>')
-def profile(name):
-	return render_template('index.html', name=name)
+@app.route('/movies')
+def movies():
+	return render_template('movies.html')
 
 
 @app.route('/add_numbers', methods=['GET','POST'])
